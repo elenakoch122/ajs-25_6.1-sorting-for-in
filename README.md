@@ -1,6 +1,6 @@
 # ДЗ for ... in
 
-
+[![Build status](https://ci.appveyor.com/api/projects/status/oya0y0c6rgq2k8f1?svg=true)](https://ci.appveyor.com/project/elenakoch122/ajs-25-6-1-sorting-for-in)
 
 ### Легенда
 
