@@ -14,10 +14,3 @@ test('sortByProps function', () => {
   ];
   expect(result).toEqual(expected);
 });
-
-test('sortByProps function if object has own property', () => {
-  const obj = {
-    name: 'мечник', health: 10, level: 2, attack: 80, defence: 40,
-  };
-  expect(Object.prototype.hasOwnProperty.call(obj, 'name')).toBeTruthy();
-});
