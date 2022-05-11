@@ -19,9 +19,7 @@ export default function sortByProps(obj, order) {
   return result;
 }
 
-
-
-// Вариант от преподавателя 
+// Вариант от преподавателя
 
 // export default function sortByProps(obj, order) {
 //   const keys = Object.keys(obj)
@@ -33,8 +31,6 @@ export default function sortByProps(obj, order) {
 //     value: obj[key],
 //   }));
 // }
-
-
 
 // Вариант 1
 
