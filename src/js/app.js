@@ -19,6 +19,23 @@ export default function sortByProps(obj, order) {
   return result;
 }
 
+
+
+// Вариант от преподавателя 
+
+// export default function sortByProps(obj, order) {
+//   const keys = Object.keys(obj)
+//     .filter((key) => !order.includes(key))
+//     .sort();
+
+//   return [...order, ...keys].map((key) => ({
+//     key,
+//     value: obj[key],
+//   }));
+// }
+
+
+
 // Вариант 1
 
 // export default function sortByProps(obj, order) {
